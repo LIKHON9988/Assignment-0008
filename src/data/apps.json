@@ -1,0 +1,398 @@
+[
+  {
+    "id": 1,
+    "image": "https://discover.daraz.com/images/Group_1083-1644460875.svg",
+    "title": "Daraz",
+    "companyName": "Feather Labs",
+    "description": "This is a description for Feather App 1. It does wonderful things and helps users be productive.",
+    "size": 21,
+    "reviews": 50,
+    "ratingAvg": 3.7,
+    "downloads": 1000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 3
+      },
+      {
+        "name": "2 star",
+        "count": 2
+      },
+      {
+        "name": "3 star",
+        "count": 5
+      },
+      {
+        "name": "4 star",
+        "count": 8
+      },
+      {
+        "name": "5 star",
+        "count": 12
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://1000logos.net/wp-content/uploads/2016/10/Amazon-logo-meaning.jpg",
+    "title": "Amazon",
+    "companyName": "Feather Labs",
+    "description": "This is a description for Feather App 2. It does wonderful things and helps users be productive.",
+    "size": 22,
+    "reviews": 100,
+    "ratingAvg": 3.9,
+    "downloads": 2000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 6
+      },
+      {
+        "name": "2 star",
+        "count": 4
+      },
+      {
+        "name": "3 star",
+        "count": 10
+      },
+      {
+        "name": "4 star",
+        "count": 16
+      },
+      {
+        "name": "5 star",
+        "count": 24
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNHbliDOpYYQdRbXo6Lp5xYKFlxA2AcnCOLA&s",
+    "title": "Google",
+    "companyName": "Feather Labs",
+    "description": "This is a description for Feather App 3. It does wonderful things and helps users be productive.",
+    "size": 23,
+    "reviews": 150,
+    "ratingAvg": 4.1,
+    "downloads": 3000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 9
+      },
+      {
+        "name": "2 star",
+        "count": 6
+      },
+      {
+        "name": "3 star",
+        "count": 15
+      },
+      {
+        "name": "4 star",
+        "count": 24
+      },
+      {
+        "name": "5 star",
+        "count": 36
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://cdn.jagonews24.com/media/imgAllNew/BG/2023March/10m-sch-20240803161747.jpg",
+    "title": "10 Minute School",
+    "companyName": "Feather Labs",
+    "description": "This is a description for Feather App 4. It does wonderful things and helps users be productive.",
+    "size": 24,
+    "reviews": 200,
+    "ratingAvg": 4.3,
+    "downloads": 4000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 12
+      },
+      {
+        "name": "2 star",
+        "count": 8
+      },
+      {
+        "name": "3 star",
+        "count": 20
+      },
+      {
+        "name": "4 star",
+        "count": 32
+      },
+      {
+        "name": "5 star",
+        "count": 48
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://images.ctfassets.net/y2ske730sjqp/1aONibCke6niZhgPxuiilC/2c401b05a07288746ddf3bd3943fbc76/BrandAssets_Logos_01-Wordmark.jpg?w=940",
+    "title": "Netflix",
+    "companyName": "Feather Labs",
+    "description": "This is a description for Feather App 5. It does wonderful things and helps users be productive.",
+    "size": 25,
+    "reviews": 250,
+    "ratingAvg": 3.5,
+    "downloads": 5000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 15
+      },
+      {
+        "name": "2 star",
+        "count": 10
+      },
+      {
+        "name": "3 star",
+        "count": 25
+      },
+      {
+        "name": "4 star",
+        "count": 40
+      },
+      {
+        "name": "5 star",
+        "count": 60
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScueuxpGeVwa7DGpFnSjPzJdUyROYin1OqvQ&s",
+    "title": "Crunchyroll",
+    "companyName": "Feather Labs",
+    "description": "This is a description for Feather App 6. It does wonderful things and helps users be productive.",
+    "size": 26,
+    "reviews": 300,
+    "ratingAvg": 3.7,
+    "downloads": 6000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 18
+      },
+      {
+        "name": "2 star",
+        "count": 12
+      },
+      {
+        "name": "3 star",
+        "count": 30
+      },
+      {
+        "name": "4 star",
+        "count": 48
+      },
+      {
+        "name": "5 star",
+        "count": 72
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://cdn.prod.website-files.com/666d73652dd00cac579627ec/67767f942c4928d932dc4f37_67767e2671f2ed8d606a3302_Icon.jpeg",
+    "title": "Snapchat",
+    "companyName": "Feather Labs",
+    "description": "This is a description for Feather App 7. It does wonderful things and helps users be productive.",
+    "size": 27,
+    "reviews": 350,
+    "ratingAvg": 3.9,
+    "downloads": 7000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 21
+      },
+      {
+        "name": "2 star",
+        "count": 14
+      },
+      {
+        "name": "3 star",
+        "count": 35
+      },
+      {
+        "name": "4 star",
+        "count": 56
+      },
+      {
+        "name": "5 star",
+        "count": 84
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://www.logo.wine/a/logo/TikTok/TikTok-Logomark%26Wordmark-White-Dark-Background-Logo.wine.svg",
+    "title": "TikTok",
+    "companyName": "Feather Labs",
+    "description": "This is a description for Feather App 8. It does wonderful things and helps users be productive.",
+    "size": 28,
+    "reviews": 400,
+    "ratingAvg": 4.1,
+    "downloads": 8000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 24
+      },
+      {
+        "name": "2 star",
+        "count": 16
+      },
+      {
+        "name": "3 star",
+        "count": 40
+      },
+      {
+        "name": "4 star",
+        "count": 64
+      },
+      {
+        "name": "5 star",
+        "count": 96
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://i.pinimg.com/736x/c3/da/22/c3da22e89bf2a59ae58bcc618126159d.jpg",
+    "title": "Clash Of Clans",
+    "companyName": "Feather Labs",
+    "description": "This is a description for Feather App 9. It does wonderful things and helps users be productive.",
+    "size": 29,
+    "reviews": 450,
+    "ratingAvg": 4.3,
+    "downloads": 9000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 27
+      },
+      {
+        "name": "2 star",
+        "count": 18
+      },
+      {
+        "name": "3 star",
+        "count": 45
+      },
+      {
+        "name": "4 star",
+        "count": 72
+      },
+      {
+        "name": "5 star",
+        "count": 108
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://www.logo.wine/a/logo/Twitter/Twitter-Logo.wine.svg",
+    "title": "Twitter",
+    "companyName": "Feather Labs",
+    "description": "This is a description for Feather App 10. It does wonderful things and helps users be productive.",
+    "size": 30,
+    "reviews": 500,
+    "ratingAvg": 3.5,
+    "downloads": 10000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 30
+      },
+      {
+        "name": "2 star",
+        "count": 20
+      },
+      {
+        "name": "3 star",
+        "count": 50
+      },
+      {
+        "name": "4 star",
+        "count": 80
+      },
+      {
+        "name": "5 star",
+        "count": 120
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://img.freepik.com/free-psd/social-media-logo-design_23-2151299469.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Pinterest",
+    "companyName": "Feather Labs",
+    "description": "This is a description for Feather App 11. It does wonderful things and helps users be productive.",
+    "size": 31,
+    "reviews": 550,
+    "ratingAvg": 3.7,
+    "downloads": 11000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 33
+      },
+      {
+        "name": "2 star",
+        "count": 22
+      },
+      {
+        "name": "3 star",
+        "count": 55
+      },
+      {
+        "name": "4 star",
+        "count": 88
+      },
+      {
+        "name": "5 star",
+        "count": 132
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://www.reuters.com/resizer/v2/FVWKY2AXB5KA5AJR7VM42UZXBY.jpg?auth=79691076346631c10aa6aac3ace1b6cad6104d1f1adfd4eea413eb4b2b59ce4e&width=4387&quality=80",
+    "title": "Spotify",
+    "companyName": "Feather Labs",
+    "description": "This is a description for Feather App 12. It does wonderful things and helps users be productive.",
+    "size": 32,
+    "reviews": 600,
+    "ratingAvg": 3.9,
+    "downloads": 12000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 36
+      },
+      {
+        "name": "2 star",
+        "count": 24
+      },
+      {
+        "name": "3 star",
+        "count": 60
+      },
+      {
+        "name": "4 star",
+        "count": 96
+      },
+      {
+        "name": "5 star",
+        "count": 144
+      }
+    ]
+  }
+]
