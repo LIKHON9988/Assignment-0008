@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 
 export default function AllApps() {
   const [query, setQuery] = useState("");
-  const [sort, setSort] = useState("high-low");
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
 
@@ -28,15 +27,10 @@ export default function AllApps() {
   }, [query]);
 
   const filtered = useMemo(() => {
-    let arr = appsData.filter((a) =>
+    return appsData.filter((a) =>
       a.title.toLowerCase().includes(query.toLowerCase())
     );
-    if (sort === "high-low")
-      arr = arr.slice().sort((a, b) => b.downloads - a.downloads);
-    if (sort === "low-high")
-      arr = arr.slice().sort((a, b) => a.downloads - b.downloads);
-    return arr;
-  }, [query, sort]);
+  }, [query]);
 
   return (
     <div className="bg-gray-50 min-h-screen py-12 px-4">
@@ -79,14 +73,6 @@ export default function AllApps() {
                 />
               </svg>
             </div>
-            <select
-              value={sort}
-              onChange={(e) => setSort(e.target.value)}
-              className="bg-white border border-gray-300 text-gray-700 py-3 px-4 pr-8 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent"
-            >
-              <option value="high-low">Downloads: High-Low</option>
-              <option value="low-high">Downloads: Low-High</option>
-            </select>
           </div>
         </div>
 
@@ -96,26 +82,24 @@ export default function AllApps() {
           </div>
         ) : filtered.length === 0 ? (
           <div className="text-center py-20 bg-white rounded-lg shadow-sm">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-16 w-16 mx-auto text-gray-400 mb-4"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={1.5}
-                d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
-            <h3 className="text-xl font-bold text-gray-700 mb-2">
-              No App Found
+            <img
+              src="/assets/App-Error.png"
+              alt="App Not Found"
+              className="h-40 w-auto mx-auto mb-4"
+            />
+            <h3 className="text-4xl font-bold text-gray-700 mb-2">
+              OPPS!! APP NOT FOUND
             </h3>
-            <p className="text-gray-500">
-              Try adjusting your search or browse our categories
+            <p className="text-gray-500 mb-6">
+              The App you are requesting is not found on our system. please try
+              another apps
             </p>
+            <button
+              onClick={() => navigate("/")}
+              className="px-6 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700 transition shadow-md"
+            >
+              Go Back!
+            </button>
           </div>
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

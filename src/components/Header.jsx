@@ -64,7 +64,7 @@ export default function Header() {
             rel="noreferrer"
             className="bg-purple-600 hover:bg-purple-700 transition-colors text-white px-5 py-2 rounded-md shadow-sm font-medium"
           >
-            Contribution
+            🟐 Contribution
           </a>
         </div>
 

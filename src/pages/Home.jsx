@@ -28,17 +28,20 @@ export default function Home() {
   }
 
   return (
-    <div className="bg-gray-50">
+    <div>
       {/* Banner Section */}
-      <section className="py-16 px-4 bg-gradient-to-r from-purple-700 to-purple-500">
+      <section className="pt-10 px-4 ">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-black">
-            We Build <span className="text-yellow-300">Productive</span>
+            We Build{" "}
+            <span className="bg-gradient-to-br from-purple-700 to-purple-500 bg-clip-text text-transparent">
+              Productive
+            </span>
             <span> Apps</span>
           </h1>
-          <p className="text-white text-opacity-90 max-w-3xl mx-auto mt-4 mb-8">
+          <p className="text-[#627382] text-opacity-90 max-w-3xl mx-auto mt-4 mb-8">
             At HERO.IO , we craft innovative apps designed to make everyday life
-            simpler, smarter, and more exciting. Our goal is to turn your ideas
+            simpler, smarter, and more exciting.Our goal is to turn your ideas
             into digital experiences that truly make an impact.
           </p>
 
@@ -83,100 +86,33 @@ export default function Home() {
 
           {/* Hero Image with App Preview */}
           <div className="relative mt-12 max-w-md mx-auto">
-            <img
-              src={hero}
-              alt="App Preview"
-              className="w-full rounded-3xl shadow-lg"
-            />
-
-            {/* Circular Icons */}
-            <div className="absolute -top-4 -left-4 w-12 h-12 bg-cyan-500 rounded-full flex items-center justify-center text-white shadow-lg">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                />
-              </svg>
-            </div>
-            <div className="absolute top-1/4 -right-4 w-12 h-12 bg-red-500 rounded-full flex items-center justify-center text-white shadow-lg">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
-              </svg>
-            </div>
-            <div className="absolute bottom-1/4 -left-4 w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white shadow-lg">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M5 13l4 4L19 7"
-                />
-              </svg>
-            </div>
-            <div className="absolute -bottom-4 -right-4 w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center text-white shadow-lg">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M13 10V3L4 14h7v7l9-11h-7z"
-                />
-              </svg>
-            </div>
+            <img src={hero} alt="App Preview" className="w-full rounded-3xl " />
           </div>
         </div>
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 px-4">
+      <section className="pt-7 px-4 bg-gradient-to-br from-purple-700 to-purple-500">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-center text-2xl md:text-3xl font-bold mb-12">
+          <h2 className="text-center text-2xl md:text-3xl font-bold mb-12 text-white">
             Trusted by Millions, Built for You
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-gradient-to-br from-purple-500 to-purple-700 p-8 rounded-xl text-white text-center shadow-lg transform hover:scale-105 transition-transform">
-              <div className="text-4xl font-bold mb-2">29.6M+</div>
-              <div className="text-lg">Total Downloads</div>
+            <div className=" pb-8 rounded-xl text-white text-center shadow-sm transform  transition-transform">
+              <div>Total Downloads</div>
+              <div className="text-5xl font-bold mb-2">29.6M+</div>
+              <div>21% more than last month</div>
             </div>
-            <div className="bg-gradient-to-br from-blue-500 to-blue-700 p-8 rounded-xl text-white text-center shadow-lg transform hover:scale-105 transition-transform">
-              <div className="text-4xl font-bold mb-2">906K+</div>
-              <div className="text-lg">Active Users</div>
+            <div className=" pb-8 rounded-xl text-white text-center shadow-sm transform  transition-transform">
+              <div>Active Users</div>
+              <div className="text-5xl font-bold mb-2">906K+</div>
+              <div>46% more than last month</div>
             </div>
-            <div className="bg-gradient-to-br from-teal-500 to-teal-700 p-8 rounded-xl text-white text-center shadow-lg transform hover:scale-105 transition-transform">
-              <div className="text-4xl font-bold mb-2">132+</div>
-              <div className="text-lg">Apps Published</div>
+            <div className=" pb-8 rounded-xl text-white text-center shadow-sm transform  transition-transform">
+              <div>Apps Published</div>
+              <div className="text-5xl font-bold mb-2">132+</div>
+              <div>31 more will Launch</div>
             </div>
           </div>
         </div>
