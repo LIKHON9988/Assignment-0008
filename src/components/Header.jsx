@@ -16,8 +16,8 @@ export default function Header() {
             alt="Feather"
             className="w-10 h-10 rounded-md object-cover"
           />
-          <div className="text-lg font-semibold tracking-tight">
-            Feather Store
+          <div className="text-lg font-semibold tracking-tight bg-gradient-to-br from-purple-700 to-purple-500 bg-clip-text text-transparent">
+            HERO.IO
           </div>
         </div>
 
