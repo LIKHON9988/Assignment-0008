@@ -126,12 +126,12 @@ function MobileMenu() {
             My Installations
           </NavLink>
           <a
-            href="https://github.com/naseefniloy"
+            href="https://github.com/LIKHON9988"
             target="_blank"
             rel="noreferrer"
             className="block py-2 mt-2 text-center bg-purple-600 text-white rounded-md hover:bg-purple-700 transition-colors font-medium"
           >
-            Contribution
+            🟐 Contribution
           </a>
         </div>
       )}
